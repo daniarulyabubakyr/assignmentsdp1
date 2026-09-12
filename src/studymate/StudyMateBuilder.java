@@ -1,6 +1,6 @@
 package studymate;
 
-public class StudyMateBuilder {
+public interface StudyMateBuilder {
     StudyMateBuilder setAppname(String appName);
     StudyMateBuilder setLanguage(String language);
     StudyMateBuilder setTheme(String theme);

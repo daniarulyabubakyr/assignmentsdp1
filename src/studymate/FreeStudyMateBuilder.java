@@ -4,6 +4,9 @@ public class FreeStudyMateBuilder extends AbstractStudyMateBuilder {
 
     @Override
     public StudyMateApp build() {
+
+        validate();
+
         return new StudyMateApp(
                 appName,
                 language,

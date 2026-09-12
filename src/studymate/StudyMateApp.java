@@ -37,7 +37,7 @@ public class StudyMateApp {
         System.out.println("Authentication: "+authentication);
         System.out.println("Notifications: "+notifications);
         System.out.println("Study planner: "+studyPlanner);
-        System.out.println("Subscripton: " +subscription);
+        System.out.println("Subscription: " +subscription);
     }
 
 

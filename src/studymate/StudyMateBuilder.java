@@ -1,7 +1,7 @@
 package studymate;
 
 public interface StudyMateBuilder {
-    StudyMateBuilder setAppname(String appName);
+    StudyMateBuilder setAppName(String appName);
     StudyMateBuilder setLanguage(String language);
     StudyMateBuilder setTheme(String theme);
     StudyMateBuilder setAuthentication(String authentication);
